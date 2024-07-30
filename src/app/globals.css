@@ -1,0 +1,38 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  height: 100vh;
+}
+.nav {
+  border: 1px solid;
+  width: 100vw;
+  height: 10%;
+  background: #00171F;
+  display: flex;
+  justify-content:center;
+  align-items: center;
+}
+.nav ul{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 30%;
+    height: 80%;
+}
+.nav ul .Link{
+    border: 1px solid white;
+    color: aliceblue;
+    height: 100%;
+    width: 45%;
+    display: flex;
+    justify-content: center;
+    transition: 0.25s;
+    align-items: center;
+}
+.nav ul .Link:hover{
+    background:#ffff;
+    color: #000;
+    transition: 0.25s;
+}
