@@ -1,0 +1,2 @@
+  const promisePool = mysqlPool.promise();
+  const [res] = await promisePool.query("SELECT * FROM products");

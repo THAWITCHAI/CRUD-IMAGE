@@ -36,3 +36,17 @@ body {
     color: #000;
     transition: 0.25s;
 }
+.item{
+  display: grid;
+  grid-template-columns: repeat(6,1fr);
+  grid-template-rows: auto;
+}
+.show{
+  height: 80%;
+  overflow-y: scroll;
+}
+.image{
+  width: 190px;
+  height: 120px;
+  overflow: hidden;
+}
